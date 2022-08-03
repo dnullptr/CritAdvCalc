@@ -28,7 +28,7 @@ def calc(old_rate,old_cdmg,new_rate,new_cdmg,smpls) -> float:
   print("[-] ---------------------------------------")
   print(f'[-] Old/New Comparator Func is Running...')
   print(f'[-] Old DMG Done: {dmg_done_old}\n[-] New DMG Done: {dmg_done_new}')
-  print(f"[-] Fraction of 'new' divided by 'old'.. = {dmg_done_new/dmg_done_old} ")
+  print(f'[-] New is better by {((dmg_done_new/dmg_done_old)*100)-100}% than Old' if dmg_done_new/dmg_done_old>1 else f'[-] New is worse by {(1-(dmg_done_new/dmg_done_old))*100}% than Old')
   print("[-] ---------------------------------------")
   return dmg_done_new/dmg_done_old
 
@@ -65,7 +65,9 @@ def find_sweet_crcd_spot(pot,smpls,mul=2) -> tuple:
             tmax=(crit,cdmg+(pot-crit-cdmg)) #gives back the decreased cdmg
         crit+=1
         cdmg-=mul 
-    print(f'[-] Combination {tmax}\n[-] Output max DMG: {max}')
+    print("[-] ---------------------------------------")
+    print(f'[-] Sweetest Combination {tmax}\n[-] Output max DMG: {max}')
+    print("[-] ---------------------------------------")
     return tmax
   
   
@@ -76,10 +78,10 @@ def find_sweet_crcd_spot(pot,smpls,mul=2) -> tuple:
 # Here is the main function, I can add a more friendly GUI later, just remember I didn't actually plan to release it to the public so quickly but here we go :)
 if __name__ == "__main__":
 # V change these V
-  old_crit=77
-  old_cdmg=177
-  new_crit=55
-  new_cdmg=200
+  old_crit=55
+  old_cdmg=200
+  new_crit=77
+  new_cdmg=177
   samples=10000
   
   # here we call calc, you can of course feed the values directly down below inside the function parenthesis 
