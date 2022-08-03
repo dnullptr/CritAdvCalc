@@ -22,6 +22,7 @@ internal function in sweet spot finder.
 # find_sweet_crcd_spot Function
 You're gonna love this one..
 this function THEORETICALLY calculates the sweetest spot of CR/CDMG distribution, given that was possible.
+
 the needed parameter is what I called "pot" for potential.
 potential equals to CR+CDMG. i.e if I got an option to do CR=55 CDMG=200 or CR=77 CDMG=178 (Using CR goblet instead of CDMG for example), then we can say my potential=255
 the luckier u are in game by getting better weapons/artifacts - the higher ur "potential" value.
