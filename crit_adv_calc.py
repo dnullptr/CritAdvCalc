@@ -68,6 +68,17 @@ def find_sweet_crcd_spot(pot,smpls,mul=2) -> tuple:
     print(f'[-] Combination {tmax}\n[-] Output max DMG: {max}')
     return tmax
 
+# Here is the main function, I can add a more friendly GUI later, just remember I didn't actually plan to release it to the public so quickly but here we go :)
 if __name__ == "__main__":
-  print(calc(77,177,55,200,10000))
+# V change these V
+  old_crit=77
+  old_cdmg=177
+  new_crit=55
+  new_cdmg=200
+  samples=10000
+  
+  # here we call calc, you can of course feed the values directly down below inside the function parenthesis 
+  print(calc(old_crit,old_cdmg,new_crit,new_cdmg,samples))
+  
+  # here we call CR/CR sweet spot finder with 254 potential value and 10000 tries..I mean.. "samples"
   print(find_sweet_crcd_spot(254,10000))
