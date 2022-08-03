@@ -28,7 +28,7 @@ def calc(old_rate,old_cdmg,new_rate,new_cdmg,smpls) -> float:
   print("[-] ---------------------------------------")
   print(f'[-] Old/New Comparator Func is Running...')
   print(f'[-] Old DMG Done: {dmg_done_old}\n[-] New DMG Done: {dmg_done_new}')
-  print("[-] Returning proportion of new divided by old.. ")
+  print(f"[-] Fraction of 'new' divided by 'old'.. = {dmg_done_new/dmg_done_old} ")
   print("[-] ---------------------------------------")
   return dmg_done_new/dmg_done_old
 
