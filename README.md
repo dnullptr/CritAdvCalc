@@ -1,11 +1,10 @@
-# CritAdvCalc
 An advanced Crit Rate/Crit DMG calculator and possibility analysis tool (Built for Genshin Impact but can work on any lifetime-sucking RPG)
 
-About the functions:
-# roll function
+# About the functions:
+# roll Function
 RNG Roll function (integer rounded is more than enough) to determine hit or miss
 
-# calc function
+# calc Function
 The main brain function.
 compares 2 sets of possible CRIT Rate/CRIT DMGs
 tells which is better statistically.
@@ -15,12 +14,12 @@ gets Old CRIT Rate,Old CRIT DMG,New CRIT Rate,New CRIT DMG,Number of samples to 
 will print but also return value.
 
 
-# calc_dmg function
+# calc_dmg Function
 helper function, simpler than calc.
 internal function in sweet spot finder.
 
 
-# find_sweet_crcd_spot function
+# find_sweet_crcd_spot Function
 You're gonna love this one..
 this function THEORETICALLY calculates the sweetest spot of CR/CDMG distribution, given that was possible.
 the needed parameter is what I called "pot" for potential.
