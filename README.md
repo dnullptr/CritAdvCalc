@@ -1,6 +1,6 @@
-An advanced Crit Rate/Crit DMG calculator and possibility analysis tool (Built for Genshin Impact but can work on any lifetime-sucking RPG)
+**An advanced Crit Rate/Crit DMG calculator and possibility analysis tool (Built for Genshin Impact but can work on any lifetime-sucking RPG)**
 
-# About the functions:
+**About the functions:**
 # roll Function
 RNG Roll function (integer rounded is more than enough) to determine hit or miss
 
