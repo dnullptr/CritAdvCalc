@@ -26,8 +26,9 @@ this function THEORETICALLY calculates the sweetest spot of CR/CDMG distribution
 The needed parameter is what I called "pot" for potential.
 
 potential equals to CR+CDMG. i.e if I got an option to do CR=55 CDMG=200 or CR=77 CDMG=178 (Using CR goblet instead of CDMG for example), then we can say my **potential=255**.
-the luckier u are in game by getting better weapons/artifacts - the higher ur "potential" value.
-this function takes a paramter named "mul" as a multiplier of how much do u think CR% is rarer than CDMG%
-as a default, and given how the game does usually - I put it to be 2. If I don't decrease it from the CDMG during the loop - it will immediately decide that 99% CR is the best.. which is not really a something.
-this function takes samples as a variable as well.
+The luckier you're are in game by getting better weapons/artifacts - the higher your "potential" value.
+This function takes a paramter named "mul" as a multiplier of how much do you think CR% is rarer than CDMG%.
+As a default, and given how the game does usually - I put it to be 2.
+If I don't decrease it from the CDMG during the loop - it will immediately decide that 99% CR is the best.. which is not really a something.
+This function takes samples as a variable as well.
 CR starts at 30. U can clearly change it.
