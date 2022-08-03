@@ -27,7 +27,7 @@ The needed parameter is what I called "pot" for potential.
 
 potential equals to CR+CDMG. i.e if I got an option to do CR=55 CDMG=200 or CR=77 CDMG=178 (Using CR goblet instead of CDMG for example), then we can say my **potential=255**.
 
-The luckier you're are in game by getting better weapons/artifacts - the higher your "potential" value.
+The luckier you're in game by getting better weapons/artifacts -> the higher your "potential" value.
 This function takes a paramter named "mul" as a multiplier of how much do you think CR% is rarer than CDMG%.
 As a default, and given how the game does usually - I put it to be 2.
 
