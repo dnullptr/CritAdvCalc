@@ -85,7 +85,7 @@ if __name__ == "__main__":
   samples=10000
   
   # here we call calc, you can of course feed the values directly down below inside the function parenthesis 
-  print(calc(old_crit,old_cdmg,new_crit,new_cdmg,samples))
+calc(old_crit,old_cdmg,new_crit,new_cdmg,samples)
   
   # here we call CR/CR sweet spot finder with 254 potential value and 10000 tries..I mean.. "samples"
-  print(find_sweet_crcd_spot(254,10000))
+find_sweet_crcd_spot(254,10000)
